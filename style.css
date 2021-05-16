@@ -1,0 +1,190 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: lawngreen;
+}
+::-webkit-scrollbar-thumb {
+    background-color: midnightblue;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: crimson;
+    border-radius: 15px;
+}
+
+
+/* html{
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+} */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.nav{
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txt1{
+    color: lawngreen;
+}
+.txt2{
+    color: gold;
+}
+.txt3{
+    color: ivory;
+}
+.txt4{
+    padding-top: 5px;
+    color: gold;
+}
+
+.heading{
+    display: flex;
+    font-size: 25px;
+}
+
+.links:link{
+    display: flexbox;
+    margin: 40px;
+    text-decoration: none;
+    align-items: center;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .8s;
+}
+.links:visited{
+    color: lightcyan;
+}
+
+.links:hover{
+    color: midnightblue;
+}
+.img{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.me{
+    /* padding-top: 0px; */
+    text-align: center;
+    font-size: 25px;
+    /* display: flex; */
+}
+.imgdiv{
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.mai{
+    color: midnightblue;
+    margin-top: 40px;
+    margin: 12.7px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.head{
+    color: midnightblue;
+}
+
+.div1{
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+}
+
+.div2{
+    padding-top: 90px;
+    padding-bottom: 140px;
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+}
+
+.content{
+    padding-top: 90px;
+    padding-bottom: 110px;
+    font-size: 25px;
+    color: seashell;
+    text-align: center;
+    font-family: monospace;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    justify-content: space-between;  
+}
+
+
+.content {
+    position: relative;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    z-index: 1;
+  }
+  
+  .content::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+  }
+  
+  .content:hover::before {
+    opacity: 1;
+  }
+
+.myProjects{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+    text-align: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 25px;
+    align-self: center;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pro1{
+    background-image: linear-gradient(-225deg, #2cd8d5 0%, #C5C1FF 56%, #FFBAC3 100%);
+    margin: 20px;
+    border-radius: 10px;
+    width: 260px;
+    padding: 7px;
+}
+
+.contact{
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding-top: 80px;
+    font-family: monospace;
+}
+
+
+footer{
+    background-color: black;
+    color: oldlace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 30px;
+    text-align: center;
+}
+
+
